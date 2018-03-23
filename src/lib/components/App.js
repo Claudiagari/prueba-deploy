@@ -13,11 +13,11 @@ const App = () => (
     </div>
     </div>
     <ul className="header ">
-      <li><NavLink  exact className="title" activeStyle={{fontWeight: 'bold', color: '#e0aa00',border:'1px solid #e0aa00', borderRadius:'5px', borderBottom:'0px'}} to="/reto-redbus" >Banca por internet</NavLink></li>
+      <li><NavLink  exact className="title" activeStyle={{fontWeight: 'bold', color: '#e0aa00',border:'1px solid #e0aa00', borderRadius:'5px', borderBottom:'0px'}} to="/prueba-deploy" >Banca por internet</NavLink></li>
       <li><NavLink className= "title" activeStyle={{fontWeight: 'bold',color: '#e0aa00',border:'1px solid #e0aa00', borderRadius:'5px', borderBottom:'0px'}} to="/efectivo" >Pagar en efectivo</NavLink></li>
     </ul>
     <div className="content"> 
-    <Route exact path="/reto-redbus" component={Internet} />
+    <Route exact path="/prueba-deploy" component={Internet} />
     <Route path="/efectivo" component={Efectivo} />
     </div>
     </div>
